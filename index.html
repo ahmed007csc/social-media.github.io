@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ 
+    <header>
+        <div class="container">
+            <h1>Social Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="#news-feed">Лента новостей</a></li>
+                    <li><a href="#profile">Профиль</a></li>
+                    <li><a href="#logout">Выход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="news-feed" class="section">
+        <div class="container">
+            <h2>Лента новостей</h2>
+            <div class="post-form">
+                <textarea id="new-post" placeholder="Что у вас нового?" rows="3"></textarea>
+                <button id="publish-btn">Опубликовать</button>
+            </div>
+
+            <div id="posts" class="posts">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="section">
+        <div class="container">
+            <h2>Профиль</h2>
+            <div class="profile-info">
+                <div class="avatar">
+                    <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/94/%D0%93%D0%B8%D0%B3%D0%B0%D1%87%D0%B0%D0%B4.jpg/640px-%D0%93%D0%B8%D0%B3%D0%B0%D1%87%D0%B0%D0%B4.jpg" alt="avatar">
+                </div>
+                <div class="profile-details">
+                    <h3>Эмирхан Козубайев</h3>
+                    <p>Email: Emirkhan@gmail.com</p>
+                    <p>Город: Кыргызстан</p>
+                    <button>Редактировать профиль</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Social Network</p>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="script.js"></script>
+</body>
+</html>
+
